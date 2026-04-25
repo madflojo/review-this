@@ -1,9 +1,10 @@
 ---
 name: review-this
 description: >-
-  Produce a structured review of code or documentation with category ratings,
-  an overall score, a checklist, and actionable improvement suggestions.
-  Use when the user asks for a review, feedback, or critique.
+  Produces a structured code review or documentation review with category
+  ratings, an overall score, a checklist, and actionable improvement
+  suggestions. Use when the task involves code review, documentation review,
+  PR review, feedback, or critique.
 license: Apache-2.0
 metadata:
   version: "1.0.0"
