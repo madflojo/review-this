@@ -37,13 +37,19 @@ lives under `assets/`.
 
 ## Installing the skill
 
-Primary path: install from GitHub CLI with `gh skill install`.
+Install from GitHub CLI:
 
 ```bash
 gh skill install madflojo/review-this
 ```
 
-Optional: pin to a tag or commit for reproducible installs:
+Install with `npx`:
+
+```bash
+npx skills add -g -y madflojo/review-this
+```
+
+Optional: pin the GitHub CLI install to a tag or commit for reproducible installs:
 
 ```bash
 gh skill install madflojo/review-this@v1.0.0
